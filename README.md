@@ -13,7 +13,7 @@ A [network-accessible](https://github.com/rodbf/WebCamServer) webcam feeding cur
 
 A valid [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key).
 
-Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
+Optional: A Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 
 ## Usage
 
