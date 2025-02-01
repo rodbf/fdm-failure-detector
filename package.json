@@ -10,6 +10,7 @@
     "start": "node --env-file=.env index.js"
   },
   "author": "rodbf",
+  "homepage": "https://github.com/rodbf/fdm-failure-detector",
   "license": "GPL-3.0-or-later",
   "engines": {
     "node": ">=21.0.0"
