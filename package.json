@@ -1,0 +1,20 @@
+{
+  "name": "fdm-failure-detector",
+  "version": "1.0.0",
+  "description": "Image-based failure detector for FDM printers",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev": "node --watch --env-file=.env index.js",
+    "start": "node --env-file=.env index.js"
+  },
+  "author": "rodbf",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=21.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}
