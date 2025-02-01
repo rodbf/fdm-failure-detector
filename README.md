@@ -5,7 +5,7 @@ It uses Google's Gemini for image parsing and can send alerts to a Discord webho
 
 ## Requirements
 
-nodeJS version >= 21.0.0.
+Node.js version >= 21.0.0.
 
 A [Moonraker](https://github.com/Arksine/moonraker)-enabled printer.
 
