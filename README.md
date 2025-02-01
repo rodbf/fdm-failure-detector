@@ -23,7 +23,7 @@ cd fdm-failure-detector
 npm install
 ```
 
-Configure your .env.
+Generate and configure your .env.
 
 ```
 npm run setup
