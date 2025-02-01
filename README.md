@@ -1,14 +1,17 @@
 # FDM Failure Detector
 
-This script will monitor a local http camera feed and detect printing failures in FDM printers.
+This script will monitor a local http camera feed and detect printing failures in FDM printers.\
 It uses Google's Gemini for image parsing and can send alerts to a Discord webhook.
 
 ## Requirements
 
-nodeJS version >= 21.0.0
-A [Moonraker](https://github.com/Arksine/moonraker)-enabled printer
-A valid [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key)
-Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)
+nodeJS version >= 21.0.0.
+
+A [Moonraker](https://github.com/Arksine/moonraker)-enabled printer.
+
+A valid [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key).
+
+Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 
 ## Usage
 
@@ -24,7 +27,7 @@ Configure your .env.
 npm run setup
 ```
 
-Run the program
+Run the program.
 
 ```
 npm start
