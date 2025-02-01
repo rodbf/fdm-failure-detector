@@ -18,6 +18,8 @@ Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383
 Clone the repository and install its dependencies.
 
 ```
+git clone https://github.com/rodbf/fdm-failure-detector.git
+cd fdm-failure-detector
 npm install
 ```
 
