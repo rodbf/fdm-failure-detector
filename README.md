@@ -15,7 +15,7 @@ Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383
 
 ## Usage
 
-Clone the repository and install its dependencies.
+Clone the repository and install its dependencies:
 
 ```
 git clone https://github.com/rodbf/fdm-failure-detector.git
@@ -23,13 +23,13 @@ cd fdm-failure-detector
 npm install
 ```
 
-Generate and configure your .env.
+Generate and configure your .env:
 
 ```
 npm run setup
 ```
 
-Run the program.
+Run the program:
 
 ```
 npm start
