@@ -11,7 +11,7 @@ A [Moonraker](https://github.com/Arksine/moonraker)-enabled printer.
 
 A valid [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key).
 
-Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
+Optional: Discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and [user ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 
 ## Usage
 
