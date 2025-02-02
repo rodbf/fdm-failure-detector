@@ -2,7 +2,7 @@ import {existsSync, readFileSync, writeFileSync} from 'fs';
 import {createInterface} from 'readline';
 
 const dotenv = '.env';
-
+const currentEnv = {};
 const defaultValues = {
   CAMERA_URL: 'http://localhost:9000/current.jpg',
   MOONRAKER_URL: 'http://voron.local:7125/',
@@ -15,7 +15,6 @@ const defaultDiscordValues = {
   DISCORD_USER_ID: '999999999999999999'
 }
 
-const currentEnv = {};
 if(existsSync(dotenv)){
   readFileSync(dotenv, 'utf-8').split('\n').forEach(line => {
     const [key, value] = line.split('=');
@@ -30,7 +29,7 @@ const consoleInterface = createInterface({
   output: process.stdout
 });
 
-const promptUserForValue = (key, currentValue) => {
+function promptUserForValue(key, currentValue) {
   return new Promise((resolve) => {
     consoleInterface.question(`${key} (${currentValue}): `, (answer) => {
       resolve(answer.trim() || currentValue);
@@ -59,16 +58,14 @@ async function setupEnv() {
     }
   }
   
-  // Write new .env file
   const envContent = Object.entries(newEnv)
-  .map(([key, value]) => `${key}=${value}`)
-  .join('\n') + '\n';
+    .map(([key, value]) => `${key}=${value}`)
+    .join('\n') + '\n';
   
   writeFileSync(dotenv, envContent);
-  console.log(`\n✅ ${dotenv} has been updated.\n`);
+  console.log(`\n${dotenv} has been updated.\n`);
   
   consoleInterface.close();
 }
 
-// Run setup
 setupEnv();
