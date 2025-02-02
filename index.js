@@ -21,7 +21,7 @@ async function checkPrinter(){
       setTimeout(checkPrinter, 1000*60*5);
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     setTimeout(checkPrinter, 1000*60*5);
   }
 }

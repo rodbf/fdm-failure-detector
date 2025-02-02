@@ -8,7 +8,7 @@ async function emergencyStop(){
     }
     return response;
   } catch (error) {
-    return console.log(error);
+    return console.error(error);
   }
 }
 
@@ -20,7 +20,7 @@ async function firmwareRestart(){
     }
     return response;
   } catch (error) {
-    return console.log(error);
+    return console.error(error);
   }
 }
 

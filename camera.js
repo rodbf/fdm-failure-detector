@@ -10,7 +10,7 @@ async function getCurrentSnapshot(){
     const arrayBuffer = await blob.arrayBuffer();
     return {base64: Buffer.from(arrayBuffer).toString('base64'), blob};
   } catch (error) {
-    return console.log(error);
+    return console.error(error);
   }
 }
 

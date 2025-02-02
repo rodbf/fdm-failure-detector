@@ -19,7 +19,7 @@ async function getAIResponse(base64Image){
     return response.response.text();
   }
   catch (error){
-    return console.log(error);
+    return console.error(error);
   }
 }
 
